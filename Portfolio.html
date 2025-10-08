@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Praveen Geel | Portfolio</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      margin: 0;
+      background: white;
+      color: #222;
+    }
+
+    header {
+      background: #222;
+      color: #fff;
+      padding: 40px 0 20px 0;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0 0 12px 0;
+      font-size: 2.5em;
+    }
+
+    header p {
+      font-size: 1.2em;
+      margin: 0;
+    }
+
+    nav {
+      text-align: center;
+      background: #135ca7;
+      padding: 15px 0;
+    }
+
+    nav a {
+      color: #fff;
+      margin: 0 18px;
+      text-decoration: none;
+      font-weight: bold;
+      letter-spacing: 1px;
+      transition: color 0.2s;
+    }
+
+    nav a:hover {
+      color: #f6d32d;
+    }
+
+    .container {
+      max-width: 850px;
+      margin: 36px auto;
+      background: #fff;
+      padding: 36px 28px;
+      border-radius: 12px;
+      box-shadow: 0 2px 12px rgba(28,55,123,0.06);
+    }
+
+    h2 {
+      color: #135ca7;
+      letter-spacing: 1px;
+      border-bottom: 2px solid #f3f4f7;
+      padding-bottom: 6px;
+    }
+
+    .about {
+      display: flex;
+      align-items: flex-start;
+      gap: 30px;
+    }
+
+    .about img {
+      width: 120px;
+      border-radius: 50%;
+      border: 3px solid #135ca7;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit,minmax(260px,1fr));
+      gap: 18px;
+      margin: 22px 0;
+    }
+
+    .project-card {
+      background: #f6f9fc;
+      border-radius: 8px;
+      padding: 18px;
+      box-shadow: 0 1px 6px rgba(19,92,167,0.07);
+      border-left: 4px solid #135ca7;
+      transition: transform 0.13s;
+    }
+
+    .project-card:hover {
+      transform: translateY(-4px) scale(1.02);
+    }
+
+    .project-card h3 {
+      margin-top: 0;
+      color: #222;
+    }
+
+    .skills {
+      margin-top: 14px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .skill {
+      background: #dde9f5;
+      color: #135ca7;
+      padding: 6px 14px;
+      border-radius: 24px;
+      font-size: 0.98em;
+    }
+
+    footer {
+      margin-top: 38px;
+      padding: 22px 0;
+      background: #222;
+      color: #eee;
+      text-align: center;
+      font-size: 1em;
+      letter-spacing: 1px;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        padding: 16px 7px;
+      }
+
+      .about {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .about img {
+        margin-bottom: 14px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Praveen Geel</h1>
+    <p>Web Developer | Designer | Creator</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+    <a href="#mypages">My pages</a>
+  </nav>
+
+  <div class="container">
+
+    <section id="about">
+      <h2>About Me</h2>
+      <div class="about">
+        <img src="profile_pic.webp" alt="Profile">
+        <div>
+          <p>
+            Hi! I’m <strong>Praveen Geel</strong>, a passionate web developer with experience in building responsive, modern websites and web apps. I love to learn new technologies and collaborate on exciting projects.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="projects">
+        <div class="project-card">
+          <h3>Portfolio Website</h3>
+          <p>A personal portfolio website to showcase my projects and skills. Built with HTML and CSS.</p>
+        </div>
+        <div class="project-card">
+          <h3>Landing Page</h3>
+          <p>A modern, responsive landing page for a startup. Designed with performance and aesthetics in mind.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <p>HTML5</p>
+      <p>CSS3</p>
+      <p>JavaScript</p>
+      <p>Git</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: <strong>praveengeel6@gmail.com</strong></p>
+      <p>Phone: <strong>6367125898</strong></p>
+    </section>
+
+    <section id="mypages">
+      <h2>My Pages</h2>
+      <ul>
+        <li><a href="Praveen geel CV.pdf">Resume</a></li>
+        <li><a href="https://www.linkedin.com/in/praveen-geel-5aa58632b/">LinkedIn</a></li>
+        <li><a href="https://github.com/Praveengeel">GitHub</a></li>
+      </ul>
+    </section>
+
+  </div>
+
+  <footer>
+    &copy; 2025 Praveen Geel. All rights reserved.
+  </footer>
+
+</body>
+
+</html>
